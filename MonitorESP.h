@@ -6,7 +6,7 @@ SoftwareSerial esp8266(RX,TX);
 class MonitorESP{
     private:
         String AP = "TP-Link_77DE_2.4";       // AP NAME
-        String PASS = "LecpU162534"; // AP PASSWORD
+        String PASS = ""; // AP PASSWORD
         String API = "C49E07XSQX97HMW8";   // Write API KEY
         String HOST = "api.thingspeak.com";
         String PORT = "80";
